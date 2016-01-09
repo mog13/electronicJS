@@ -4,7 +4,7 @@
   describe('test suite for wire functionality', function () {
 		var wire;
 		beforeEach(function(){
-		wire = new Wire(0,'test',null)
+		wire = new Wire(0,'test',null);
 		});
 		
 		it('should default to 0 if not explitly set',function() {
@@ -59,7 +59,7 @@
 		});
 		
 		it('should only return 0 or 1 when using set',function(){
-			console.log(io.prototype);
+			
 		});
 		
 	});
