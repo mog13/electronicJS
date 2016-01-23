@@ -78,10 +78,10 @@ DigIO.prototype.set = function set(newValue) {
 
     var oldValue = this.value;
     this.value = newValue > this.threshold ? 1 : 0;
-    console.log(this.name + ' was set to: ' + this.value, this);
+    //console.log(this.name + ' was set to: ' + this.value, this);
     if (this.value !== oldValue) {
         this.update();
-        console.log(this.name + ' triggered an update', this);
+      //  console.log(this.name + ' triggered an update', this);
     }
 
     return this.value;
