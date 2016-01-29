@@ -18,7 +18,7 @@
 		expect(wire.value).toBe(5);
 		});
 		
-		it('should correctly add collections and clea them',function(){
+		it('should correctly add collections and clear them',function(){
 		var dummy = function(){};
 		wire.addConnection(dummy);
 		wire.addConnection(dummy);
