@@ -3,4 +3,6 @@ node_js:
   - "0.12.7"
 before_script:
   - npm install
-script: gulp unit-tests
+script:
+  - gulp minify
+  - gulp unit-tests

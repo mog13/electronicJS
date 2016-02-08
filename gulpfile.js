@@ -9,10 +9,10 @@ gulp.task('default', function() {
 
 //Run all Jasmine unit tests (using Karma)
 gulp.task('unit tests', function (done) {
-  new Server({
-    configFile: __dirname + '/karma.conf.js',
-    singleRun: true
-  }, done).start();
+    new Server({
+        configFile: __dirname + '/karma.conf.js',
+        singleRun: true
+    }, done).start();
 });
 
 
